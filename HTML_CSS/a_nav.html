@@ -7,54 +7,71 @@
     <link rel="stylesheet" href="./styles/a_nav.css" />
 </head>
 <body>
-    
-    <header>
-        <nav id="nav_top">
+
+    <!-- nav -->
+    <div id="nav">
+        <div class="inner">
+            <div class="sns fla-left">
+                <a href="#">a</a>
+                <a href="#">a</a>
+                <a href="#">a</a>
+                <a href="#">a</a>
+                <a href="#">a</a>
+                <a href="#">a</a>
+                <a href="#">a</a>
+            </div>
+            <!-- a들 -->
+
+            <div class="login">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">판매자신청</a>
+            </div>
+            <!-- 로그인 영역 -->
+        </div>
+    </div>
+    <!-- /nav end -->
+
+    <!-- header -->
+    <div id="header">
+        <div class="inner">
+            <a href="#"><img src="images/ham.png" alt="" /></a>
+            <!-- 햄버거 -->
+
             <ul>
-                <li><a href="#">a</a></li>
-                <li><a href="#">a</a></li>
-                <li><a href="#">a</a></li>
-                <li><a href="#">a</a></li>
-                <li><a href="#">a</a></li>
-                <li><a href="#">a</a></li>
-                <li><a href="#">a</a></li>
-            </ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">쇼핑</a></li>
+                <li><a href="#">싱그런 여행</a></li>
+                <li><a href="#">마이가든</a></li>
+                <!-- 햄버거 옆 메뉴들 -->
 
-            <div>
-                <a href="#">로그인</a>|<a href="#">회원가입</a>|<a href="#">판매자신청</a>
-            </div>
-        </nav>
-        <!-- ! nav_top end -->
+                <li>
+                    <a href="#"><img src="images/logo.png" alt="" /></a>
+                </li>
+                <!-- 로고 -->
 
-        <nav id="nav_under">
-                <img src="HTML_CSS/images/ham.png" alt="" />
+                <li class="icon">
+                    <a href="#" class="fla-left">
+                        <img src="images/icon1.png" alt="" />
+                    </a>
+                    <a href="#" class="fla-left">
+                        <img src="images/icon2.png" alt="" />
+                    </a>
+                    <a href="#" class="fla-left">
+                        <img src="images/icon3.png" alt="" />
+                    </a>
+                    <!-- 오른쪽 아이콘들 -->
 
-                <ul>
-                    <li><a href="#">홈</a></li>
-                    <li><a href="#">커뮤니티</a></li>
-                    <li><a href="#">쇼핑</a></li>
-                    <li><a href="#">싱그런 여행</a></li>
-                    <li><a href="#">마이가든</a></li>
-                </ul>
-            
-            <img class="logo" src="./HTML_CSS/images/logo.png" alt="" />
-
-            <div class="search">
-                <div class="in_se">
-                    <img src="./HTML_CSS/images/icon1.png" alt="" />
-                    <img src="./HTML_CSS/images/icon2.png" alt="" />
-                    <img src="./HTML_CSS/images/icon3.png" alt="" />
-
-                    <form>
-                        <input type="search" placeholder="검색하세요." />
-                        <!-- style에서 서치 아이콘 넣기 -->
+                    <form class="fla-left">
+                        <input type="search" placeholder="검색하세요" class="fla-left" />
+                        <img src="images/ser.png" alt="" />
                     </form>
-                </div>
-            </div>
-        </nav>
-        <!-- ! nav_under end -->
-    </header>
-    <!-- ! header end -->
+                    <!-- 이어서 서치상자 -->
+                </li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
